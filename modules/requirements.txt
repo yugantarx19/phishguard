@@ -1,0 +1,32 @@
+# PhishGuard – Python dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Core UI ───────────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── Email parsing ─────────────────────────────────────────────────────────────
+beautifulsoup4>=4.12.0
+lxml>=5.2.0
+
+# ── HTTP / APIs ───────────────────────────────────────────────────────────────
+requests>=2.32.0
+vt-py>=0.18.0                  # VirusTotal v3 SDK
+
+# ── WHOIS ─────────────────────────────────────────────────────────────────────
+python-whois>=0.9.5
+
+# ── NLP ───────────────────────────────────────────────────────────────────────
+spacy>=3.7.0
+# Optional: uncomment for transformer-based summarization (large download)
+# transformers>=4.41.0
+# torch>=2.3.0
+
+# ── Antivirus (ClamAV local) ──────────────────────────────────────────────────
+pyclamd>=0.4.0                 # requires clamd running locally
+
+# ── Data / display ────────────────────────────────────────────────────────────
+pandas>=2.2.0
+
+# ── PDF export (optional) ────────────────────────────────────────────────────
+# weasyprint>=62.0              # uncomment if you want PDF export
+# reportlab>=4.2.0              # alternative PDF engine
