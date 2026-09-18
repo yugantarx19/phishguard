@@ -34,7 +34,7 @@ PhishGuard analyses `.eml` email files and produces a detailed HTML threat repor
 ### 1\. Clone \& Install
 
 ```bash
-git clone https://github.com/iamnotprashant/phishguard.git
+git clone https://github.com/yugantarx19/phishguard.git
 cd phishguard
 bash setup.sh
 source .venv/bin/activate
@@ -58,7 +58,7 @@ REM 2. Check Python is installed
 python --version
 
 REM 3. Clone the repo (or download ZIP and extract)
-git clone https://github.com/yourusername/phishguard.git
+git clone https://github.com/yugantarx19/phishguard.git
 cd phishguard
 
 REM 4. Create virtual environment
